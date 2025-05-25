@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport content="width=device-width, initial-scale="1.0">
+ <title>Feedback Us</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<hr>
+<body>
+<header>
+  <img src="images/logo.jpg" alt="Belino Kidz Academy" title="Belino Kidz Academy" width="100" height="auto" >
+<hr>
+ <nav>
+  <table cellspacing="5" cellpadding="5">
+    <tr>
+    <td><a href="index.hmtl">Home</a></td>
+    <td><a href="aboutus.html">About us</a></td>
+    <td><a href="service.html">Services</a></td>
+    <td><a href="location.html">Location</a></td>
+    <td><a href="feedbackus.html">Feedback Us</a></td>
+    </tr>
+  </table>
+</nav>
+</header>
+<main class="container">
+  <aside class="sidebar Left-sidebar">
+    <h2>ADVERTS</h2>
+    <img src="images/fun.jpg" alt="advertisement">
+    <p> Let your child experience the best fun with us</p>
+    <img src="images/picnics.jpg" alt="advertisement">
+    <p> We provide your child with pinics</p>
+   </aside>
+
+  <article class="main-content">
+    <h1> FEEDBACK US</h1>
+    <p><strong> We would love to know what your opininion is concerning our school</strong></p>
+
+    <fieldset>
+    <legend>Personal Information</legend>
+    <form action="feedback.php" method="post">
+    
+    <p><label for="username">First Name:</label>
+    <input type="text" id="firstname" name="name" size="35" maxlength="35" required aria-required="true">
+    </p>
+
+    <p><label for="username">Last Name:</label>
+    <input type="text" id="lastname" name="name" size="35" maxlength="35" required aria-required="true">
+    </p>
+
+    <p><label for="contact">Contact:</label>
+    <input type="text" id="contact" name="name" size="35" maxlength="35" required aria-required="true">
+    </p>
+
+    <p><label for="email">Email:</label>
+    <input type="text" id="email" name="email" size="35" maxlength="35" required aria-required="true">
+    </p>
+    </form>
+    </fieldset>
+
+    <fieldset class="area">
+    <legend>Which extra services would you love to see in our website?</legend>
+    <form>
+    <p><input type="checkbox" name="services" value="OnlTech">Online Teaching</p>
+    <p><input type="checkbox" name="services" value="vid">Videos</p>
+    <p><input type="checkbox" name="services" value="IntAdmin">International Admission</p>
+    </form>
+    </fieldset>
+
+    <form>
+    <p><br>Comment Section:</br></p>
+    <textarea id="comments" name="comments" rows="5" cols="30" required aria-required="true">
+    Enter your comment here...
+    </textarea>
+    </form>
+
+    <p>Would you like to be on our mailing list?<br>
+    <input type="radio" name="list" value="yes" id="yes"/>
+    <label for="Yes">Yes</label>
+    </p>
+    <p>
+    <input type="radio" name="list" value="no" id="no"/>
+    <label for="No">No</label>
+    </p>
+
+    <p class=".submit">
+    <input type="submit" value="Submit your answers">
+    <input type="reset" value="Clear the form">
+    </p>
+  
+   </article>
+</main>
+<hr>
+<footer>
+  <p>&copy;2025 Belino Kidz Academy. All rights reserved.</p>
+</footer>
+</body>
+</html>
